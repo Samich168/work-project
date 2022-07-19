@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo__text {
+  font-size: 36px;
+  font-weight: bold;
+}
+.header-user {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 108px;
+}
+.header-user__link {
+  color: white;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  margin-left: 14px;
+}
+
+.main {
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+}
+.main-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.main-download__text {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-download__button {
+  margin: 0 10px;
+}
+
+.platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.platform__img {
+  margin-right: 30px;
+}
+.platform-title {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 140px;
+}
+.platform-suptitle__text {
+  font-size: 20px;
+  margin-left: 140px;
+}
+.platform-suptitle::before {
+  content: "";
+  width: 140px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  float: left;
+  transform: rotate(-60deg);
+  position: absolute;
+  box-shadow: 70px 0px 30px 20px rgba(96, 92, 234, 0.5);
+}
+
+.parthner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 80px 0 240px 0;
+}
+.parthner-card {
+  width: 500px;
+  height: 310px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  align-items: left;
+  padding: 40px 64px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.parthner-card__text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.parthner-card__link {
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: white;
+  font-size: 24px;
+}
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 280px;
+}
+.mission-text {
+  width: 28%;
+}
+.mission__title {
+  font-size: 51px;
+  margin-bottom: 23px;
+}
+.mission__suptitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.scaner {
+  background: url("../img/barmen.png") no-repeat;
+  z-index: 10;
+  margin: 0 auto;
+  width: 1440px;
+}
+.scaner-shadow {
+  height: 900px;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 4%, rgba(255, 255, 255, 0) 50%, rgb(0, 0, 0) 96%);
+  z-index: 20;
+}
+.scaner-wrapper {
+  padding-top: 450px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.scaner-text {
+  width: 28%;
+  margin-bottom: 70px;
+}
+.scaner__title {
+  font-size: 51px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+.scaner__suptitle {
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
